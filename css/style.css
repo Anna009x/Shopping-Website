@@ -46,6 +46,22 @@
     border-radius: 7px;
 }
 
+.section-header {
+    display: flex;
+    align-items: flex-end;
+}
+
+.header-list {
+    display: flex;
+    gap: 54px;
+    align-items: center;
+}
+
+.header-item {
+    display: flex;
+    align-items: flex-start;
+}
+
 .section-hero {
     background-color:var(--color-hero-background);
     border-radius: 59px;
@@ -108,6 +124,11 @@
     letter-spacing: -1.28px;
 }
 
+.arrivals-img {
+    width: 484.0px;
+    height: 704.0px;
+}
+
 .arrivals-text {
     color:var(--color-grey);
     font-family: 'Poppins';
@@ -147,14 +168,23 @@
     letter-spacing: 0.721px;
 }
 
+.banner-img {
+    width: 991.4px;
+    height: 968.0px;
+}
+
 .banner-btn {
     color: var(--color-white);
+    background-color:var(--color-black);
     font-family: 'Poppins';
+    width: 265.6px;
+    height: 95.3px;
     font-size: 27.902px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     letter-spacing: 0.558px;
+    border-radius: 8.138px;
 }
 
 .favourite-title {
@@ -175,6 +205,10 @@
     font-weight: 500;
     line-height: 50px;
     letter-spacing: -1.28px;
+}
+
+.favourite-img {
+    border-radius: 20px;
 }
 
 .favourite-text {
@@ -205,6 +239,11 @@
     font-weight: 500;
     line-height: 35px;
     letter-spacing: -0.96px;
+}
+
+.voucher-img {
+    width: 204.0px;
+    height: 71.0px;
 }
 
 .section-community {
