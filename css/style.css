@@ -12,6 +12,16 @@
     --color-brands-background:#EBD96B;
 }
 
+body {
+    font-family: "Poppins";
+}
+
+.container {
+    width: 1720.0px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
 .header-logo {
     color: var(--color-black);
     font-family: 'Poppins';
